@@ -1,0 +1,23 @@
+---
+version: 1
+service:
+  name: Recommendations
+  lifecycle:
+  tier: tier_3
+  product:
+  owner: product
+  language:
+  framework:
+  description: Generates recommendations
+  aliases:
+  tags:
+  repositories:
+  - name: byteclub-dev/blog
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
+  - alias: subscriptions
+  - alias: datalake
+  - alias: ads
+  alert_sources:
