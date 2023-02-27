@@ -22,4 +22,4 @@ service:
   - alias: ads
   alert_sources:
     - type: pagerduty
-      external_id: P8M8D98
+      external_id: PSMVLF9
