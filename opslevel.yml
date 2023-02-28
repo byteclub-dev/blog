@@ -21,5 +21,5 @@ service:
   - alias: datalake
   - alias: ads
   alert_sources:
-    - type: pagerduty
+    - type: pagerrduty
       external_id: PSMVLF9
